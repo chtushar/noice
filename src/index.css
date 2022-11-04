@@ -48,5 +48,6 @@ table {
 }
 
 html, body, #root {
+  overscroll-behavior: none;
   height: 100%;
 }
