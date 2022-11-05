@@ -55,7 +55,7 @@ const Content = ({ backgroundSvgString, background }:{ backgroundSvgString: stri
                 </ul>
                 
                 <p className='mt-16 font-primary text-white leading-6'>
-                    open sourced at <a className='italic font-secondary text-normal' href='https://github.com/chtushar/noice'>chtushar/noice</a> by <a className='font-secondary text-normal italic' target="_blank" href="https://twitter.com/ctushr">@ctushr</a>
+                    open sourced at <a className='italic font-secondary text-normal' target="_blank" href='https://github.com/chtushar/noice'>chtushar/noice</a> by <a className='font-secondary text-normal italic' target="_blank" href="https://twitter.com/ctushr">@ctushr</a>
                     <br />
                     created using {' '}
                     {creditLinks.map((link, index) => (
