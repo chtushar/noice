@@ -68,3 +68,9 @@ html, body, #root {
 * {
 	box-sizing: border-box;
 }
+
+@layer base {
+	a {
+		@apply text-neutral-500 hover:text-neutral-300 font-secondary italic;
+	}
+}

@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "highlight.js": "^11.6.0",
     "leva": "^0.9.34",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
