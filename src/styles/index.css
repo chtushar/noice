@@ -1,3 +1,11 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,4 +58,13 @@ table {
 html, body, #root {
   overscroll-behavior: none;
   height: 100%;
+}
+
+:root {
+	--primary-font: "Inter var", sans-serif;
+	--secondary-font: "EB Garamond var", 'Times New Roman', serif;
+}
+
+* {
+	box-sizing: border-box;
 }
