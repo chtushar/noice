@@ -14,7 +14,7 @@ function App() {
     opacity
   } = useControls({ 
     background: '#fc3c3c', 
-    frequency: { value: 0.8, min: 1.34, max: 2 }, 
+    frequency: { value: 1.34, min: 0, max: 2 }, 
     octaves: 4,
     brightness: { value: 0.46, min: 0, max: 3},
     contrast: { value: 1.47, min: 0, max: 3},
