@@ -28,8 +28,8 @@ const Content = ({ backgroundSvgString, background }:{ backgroundSvgString: stri
     return (
         <div className="max-w-[800px] my-0 mx-auto">
             <main>
-                <div className='flex justify-between items-center'>
-                    <h1 className="font-secondary font-bold text-8xl text-white mb-4">noice</h1>
+                <div className='flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center mb-4'>
+                    <h1 className="font-secondary font-bold text-8xl text-white">noice</h1>
                     <a href="https://www.producthunt.com/posts/noice-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-noice&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=366095&theme=dark" alt="noice - Noice&#0032;helps&#0032;generate&#0032;SVG&#0032;filters&#0032;for&#0032;noise&#0032;textures | Product Hunt" style={{width: 250, height: 54 }} width="250" height="54" /></a>
                 </div>
                 <p className="font-primary font-normal text-neutral-500 text-lg mb-12">Noice helps generate SVG filters for noise textures.</p>
