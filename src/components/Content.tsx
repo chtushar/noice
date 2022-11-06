@@ -28,8 +28,11 @@ const Content = ({ backgroundSvgString, background }:{ backgroundSvgString: stri
     return (
         <div className="max-w-[800px] my-0 mx-auto">
             <main>
-                <h1 className="font-secondary font-bold text-8xl text-white mb-4">noice</h1>
-                <p className="font-primary font-normal text-neutral-500 text-lg mb-12">noice helps generate SVG filters for noise textures.</p>
+                <div className='flex justify-between items-center'>
+                    <h1 className="font-secondary font-bold text-8xl text-white mb-4">noice</h1>
+                    <a href="https://www.producthunt.com/posts/noice-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-noice&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=366095&theme=dark" alt="noice - Noice&#0032;helps&#0032;generate&#0032;SVG&#0032;filters&#0032;for&#0032;noise&#0032;textures | Product Hunt" style={{width: 250, height: 54 }} width="250" height="54" /></a>
+                </div>
+                <p className="font-primary font-normal text-neutral-500 text-lg mb-12">Noice helps generate SVG filters for noise textures.</p>
                 <div className='relative grid grid-cols-1 md:grid-cols-2 gap-4 mb-12'>
                     <div className="min-h-[320px] h-full rounded-[10px] relative m-0 z-10 overflow-hidden col-span-1 row-start-1 row-end-2" style={{ background }} dangerouslySetInnerHTML={{ __html: backgroundSvgString }} />
                     <pre className="h-full rounded-[10px] relative m-0 scrollbar-hide col-span-1 row-start-3 md:row-start-1 row-end-4 md:row-end-2" style={{ margin: 0 }}>
